@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-17T17:50:02 IST" name="Default suite" finished-at="2022-12-17T17:50:29 IST" duration-ms="27480">
+  <suite started-at="2022-12-17T18:36:56 IST" name="Default suite" finished-at="2022-12-17T18:37:21 IST" duration-ms="25110">
     <groups>
     </groups>
-    <test started-at="2022-12-17T17:50:02 IST" name="Default test" finished-at="2022-12-17T17:50:29 IST" duration-ms="27480">
+    <test started-at="2022-12-17T18:36:56 IST" name="Default test" finished-at="2022-12-17T18:37:21 IST" duration-ms="25110">
       <class name="testCases.SignUpTestCases">
-        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:testCases.SignUpTestCases@16a0ee18]" started-at="2022-12-17T17:50:02 IST" name="browserlaunch" finished-at="2022-12-17T17:50:15 IST" duration-ms="12680" status="PASS">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:testCases.SignUpTestCases@16a0ee18]" started-at="2022-12-17T18:36:56 IST" name="browserlaunch" finished-at="2022-12-17T18:37:09 IST" duration-ms="13378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserlaunch -->
-        <test-method signature="veryfySignUp()[pri:0, instance:testCases.SignUpTestCases@16a0ee18]" started-at="2022-12-17T17:50:15 IST" name="veryfySignUp" finished-at="2022-12-17T17:50:29 IST" duration-ms="14708" status="FAIL">
+        <test-method signature="veryfySignUp()[pri:0, instance:testCases.SignUpTestCases@16a0ee18]" started-at="2022-12-17T18:37:09 IST" name="veryfySignUp" finished-at="2022-12-17T18:37:21 IST" duration-ms="11612" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -19,10 +19,10 @@
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03a8ef938b3e624c0c091cad213baf59, clickElement {id=1543984e-0bbb-4ce0-b82f-efedb6b3e272}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62846/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (03a8ef938b3e624c0c091cad213baf59)] -> xpath: (//div[@class='checkbox-ui'])[2]]
-Session ID: 03a8ef938b3e624c0c091cad213baf59]]>
+Command: [bd1f878a402a54668d5d3b5b8c6d3d6d, clickElement {id=326bf0de-ba76-47e7-ae89-795db8771625}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64321}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64321/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (bd1f878a402a54668d5d3b5b8c6d3d6d)] -> xpath: (//div[@class='checkbox-ui'])[2]]
+Session ID: bd1f878a402a54668d5d3b5b8c6d3d6d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -30,10 +30,10 @@ Session ID: 03a8ef938b3e624c0c091cad213baf59]]>
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03a8ef938b3e624c0c091cad213baf59, clickElement {id=1543984e-0bbb-4ce0-b82f-efedb6b3e272}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62846/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (03a8ef938b3e624c0c091cad213baf59)] -> xpath: (//div[@class='checkbox-ui'])[2]]
-Session ID: 03a8ef938b3e624c0c091cad213baf59
+Command: [bd1f878a402a54668d5d3b5b8c6d3d6d, clickElement {id=326bf0de-ba76-47e7-ae89-795db8771625}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64321}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64321/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (bd1f878a402a54668d5d3b5b8c6d3d6d)] -> xpath: (//div[@class='checkbox-ui'])[2]]
+Session ID: bd1f878a402a54668d5d3b5b8c6d3d6d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)

@@ -34,7 +34,7 @@ public class SignUpPageObjects {
 
 	
 	// I agree to the Main Services Agreement checkbox
-	By bottomcheckbox = By.xpath("(//div[@class='checkbox-ui'])[2]");
+	By bottomcheckbox = By.xpath("(//div[@class='checkbox-ui'])[1]");
 
 	public SignUpPageObjects(WebDriver driver2) {
 
