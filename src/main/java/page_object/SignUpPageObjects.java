@@ -9,7 +9,7 @@ public class SignUpPageObjects {
 	public WebDriver driver;
 
 	// send keys on first name
-	private By firstname = By.xpath("(//input[@name='UserFirstName']");
+	private By firstname = By.xpath("//input[@name='UserFirstName']");
 
 	// send keys on last name
 	private By Lastname = By.xpath("//input[@name='UserLastName']");
@@ -32,11 +32,9 @@ public class SignUpPageObjects {
 	// select country and religion dropdown
 	By country = By.xpath("//select[@name='CompanyCountry']");
 
-	// My company is currently using Salesforce checkbox
-	By bottomcheckbox1 = By.xpath("(//div[@class='checkbox-ui'])[1]");
-
+	
 	// I agree to the Main Services Agreement checkbox
-	By bottomcheckbox2 = By.xpath("(//div[@class='checkbox-ui'])[2]");
+	By bottomcheckbox = By.xpath("(//div[@class='checkbox-ui'])[2]");
 
 	public SignUpPageObjects(WebDriver driver2) {
 
@@ -91,14 +89,12 @@ public class SignUpPageObjects {
 		return driver.findElement(country);
 	}
 
-	public WebElement checkbox1() {
+	
+	
 
-		return driver.findElement(bottomcheckbox1);
-	}
+	public WebElement checkbox() {
 
-	public WebElement checkbox2() {
-
-		return driver.findElement(bottomcheckbox2);
+		return driver.findElement(bottomcheckbox);
 	}
 
 }

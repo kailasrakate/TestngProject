@@ -40,7 +40,7 @@ public class logInTestsCase extends BaseClass {
 
 		Commonmethods.assertionmethod(LPO.frorgotyourPassword().getText(), Constant.forgotyourpasswordText);
 
-		LPO.ClickOnTryforfree().click();
+		LPO.ClickOnTryforfree().click(); //
 
 	}
 

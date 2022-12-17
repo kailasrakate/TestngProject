@@ -11,7 +11,7 @@ public class Constant {
 
 	// singUP page----
 
-	public static String firstname = "kailas";
+	public static String firstname = "kailash";
 	public static String lastname = "Rakate";
 	public static String jobtitle = "engineer";
 	public static String Email = "rakatekailas@gmail.com";

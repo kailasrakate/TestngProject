@@ -26,7 +26,7 @@ public class SignUpTestCases extends BaseClass {
 		SignUpPageObjects spo = new SignUpPageObjects(driver); // signUP page chya method SignUPpageobject ya clas madhe
 																// ahet mhanun tyacha object banavala
 
-		Thread.sleep(10000);
+		Thread.sleep(3000);
 		spo.Enterfirstname().sendKeys(Constant.firstname);
 
 		spo.EnterLastname().sendKeys(Constant.lastname);
@@ -46,9 +46,9 @@ public class SignUpTestCases extends BaseClass {
 
 		Thread.sleep(1000);
 
-		spo.checkbox1().click();
+		
 
-		spo.checkbox2().click();
+		spo.checkbox().click();
 
 	}
 }
