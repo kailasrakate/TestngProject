@@ -9,7 +9,7 @@ public class SignUpPageObjects {
 	public WebDriver driver;
 
 	// send keys on first name
-	private By firstname = By.xpath("//input[@name='UserFirstName']");
+	private By firstname = By.xpath("(//input[@name='UserFirstName']");
 
 	// send keys on last name
 	private By Lastname = By.xpath("//input[@name='UserLastName']");

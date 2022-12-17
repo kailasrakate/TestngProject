@@ -26,7 +26,7 @@ public class SignUpTestCases extends BaseClass {
 		SignUpPageObjects spo = new SignUpPageObjects(driver); // signUP page chya method SignUPpageobject ya clas madhe
 																// ahet mhanun tyacha object banavala
 
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		spo.Enterfirstname().sendKeys(Constant.firstname);
 
 		spo.EnterLastname().sendKeys(Constant.lastname);
